@@ -45,3 +45,21 @@ body, h1, p, a {
     justify-content: center;
     gap: 20px;
 }
+
+.video-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}

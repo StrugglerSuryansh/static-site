@@ -94,14 +94,18 @@ body::-webkit-scrollbar {
  
 }
 
+.cta-button a {
+    color: white;
+}
+
 .cta-button:hover {
- background-color: #45a049;
+ background-color: #27682a;
 }
 
 /* Features Section */
 .features {
  padding: 60px 0;
- background-color: #fff;
+ background-color: #ffffff82;
  text-align: center;
 }
 
@@ -117,12 +121,14 @@ body::-webkit-scrollbar {
 }
 
 .card {
- background-color: #f4f4f4;
+ background-color: #f4f4f46c;
  padding: 20px;
  border-radius: 8px;
  width: 30%;
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .card h3 {
  font-size: 24px;
