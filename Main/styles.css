@@ -93,6 +93,9 @@ body::-webkit-scrollbar {
  text-decoration: none;
  
 }
+::-webkit-scrollbar{
+    display: none;
+}
 
 .cta-button a {
     color: white;

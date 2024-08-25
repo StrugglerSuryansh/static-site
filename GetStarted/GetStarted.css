@@ -4,12 +4,20 @@ body, h1, p, a {
     padding: 0;
     text-decoration: none;
     font-family: Arial, sans-serif;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 /* Container */
 .container {
     text-align: center;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Buttons */
@@ -46,6 +54,7 @@ body, h1, p, a {
     gap: 20px;
 }
 
+/* Video Container */
 .video-container {
     background-color: #ffffff;
     border-radius: 10px;
@@ -57,8 +66,10 @@ body, h1, p, a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
 }
 
+/* Video */
 video {
     width: 100%;
     border-radius: 10px;
