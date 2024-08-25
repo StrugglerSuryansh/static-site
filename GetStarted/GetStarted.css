@@ -1,0 +1,47 @@
+/* Basic Reset */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Buttons */
+.button, .back-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover, .back-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Back button styling */
+.back-button {
+    background-color: #555555; /* Dark grey */
+}
+
+.back-button:hover {
+    background-color: #333333; /* Darker grey */
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
